@@ -83,6 +83,11 @@ The project uses the APS Failure at Scania Trucks dataset, which contains sensor
 │   ├── aps_failure_description.txt
 │   ├── aps_failure_test_set.csv
 │   └── aps_failure_training_set.csv
+├── images/                           # images directory 
+│   ├── Anomaly_Probability.png
+│   ├── MP_Confusion_matrix.png
+│   ├── MP_ROC_curve.png
+│   └── Sonsor_Readings_and_Anomoly_detection.png
 ├── notebooks/                       # Jupyter notebooks for analysis
 │   ├── 01_data_processing_and_eda.ipynb
 │   ├── 02_anomaly_detection.ipynb
