@@ -265,8 +265,18 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **UCI Machine Learning Repository** for hosting the dataset
 - **Open-source contributors** to libraries such as scikit-learn, TensorFlow, XGBoost, Flask, and Streamlit
 - The broader data science and machine learning community for tutorials, tools, and inspiration
+<<<<<<< HEAD
 
 <div align="center">
   <p>Built with ❤️ for better industrial maintenance</p>
   <p>© 2025 Your Name or Organization</p>
 </div> 
+=======
+
+---
+
+<div align="center">
+  <p>Built with ❤️ for better industrial maintenance</p>
+  <p>© 2025 Subhro Pal</p>
+</div> 
+>>>>>>> c0251d92059e670579cb5caa27b55142145e3181
