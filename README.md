@@ -259,9 +259,14 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
----
+## 🙏 Acknowledgements
+
+- **Scania CV AB** for providing the APS Failure at Scania Trucks dataset
+- **UCI Machine Learning Repository** for hosting the dataset
+- **Open-source contributors** to libraries such as scikit-learn, TensorFlow, XGBoost, Flask, and Streamlit
+- The broader data science and machine learning community for tutorials, tools, and inspiration
 
 <div align="center">
   <p>Built with ❤️ for better industrial maintenance</p>
-  <p>© 2023 Your Name or Organization</p>
+  <p>© 2025 Your Name or Organization</p>
 </div> 
