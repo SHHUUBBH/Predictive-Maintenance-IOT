@@ -79,9 +79,7 @@ The project uses the APS Failure at Scania Trucks dataset, which contains sensor
 ## 🗂️ Project Structure
 
 ```
-├── aps_failure_description.txt     # Description of the dataset
-├── aps_failure_test_set.csv        # Test data
-├── aps_failure_training_set.csv    # Training data
+├── aps_failure_at_scania_trucks/     # dataset
 ├── notebook
 │   ├── app.py                      # Python script for model deployment (e.g., Flask/Streamlit app)
 │   ├── Maintenance_prediction.ipynb # Jupyter Notebook with EDA, preprocessing, and model training
