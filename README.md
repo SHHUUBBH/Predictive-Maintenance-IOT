@@ -79,38 +79,18 @@ The project uses the APS Failure at Scania Trucks dataset, which contains sensor
 ## 🗂️ Project Structure
 
 ```
-├── aps_failure_at_scania_trucks/    # Dataset directory
-│   ├── aps_failure_description.txt
-│   ├── aps_failure_test_set.csv
-│   └── aps_failure_training_set.csv
-├── images/                           # images directory 
-│   ├── Anomaly_Probability.png
-│   ├── MP_Confusion_matrix.png
-│   ├── MP_ROC_curve.png
-│   └── Sonsor_Readings_and_Anomoly_detection.png
-├── notebooks/                       # Jupyter notebooks for analysis
-│   ├── 01_data_processing_and_eda.ipynb
-│   ├── 02_anomaly_detection.ipynb
-│   ├── 03_predictive_modeling.ipynb
-│   ├── 04_model_evaluation.ipynb
-│   ├── 05_deployment.ipynb
-│   └── 06_dashboard.ipynb
-├── src/                             # Source code
-│   ├── model_evaluation/            # Trained models and evaluation
-│   │   └── best_classification_model.pkl
-│   ├── deployment/                  # API deployment files
-│   │   ├── app.py                   # Flask API
-│   │   ├── Dockerfile
-│   │   ├── model.pkl
-│   │   ├── preprocessor.pkl
-│   │   └── requirements.txt
-│   └── dashboard/                   # Dashboard files
-│       ├── app.py                   # Streamlit dashboard
-│       ├── README.md
-│       └── requirements.txt
-├── project_documentation.md         # Comprehensive documentation
-├── README.md
-└── requirements.txt                 # Main project dependencies
+├── aps_failure_description.txt     # Description of the dataset
+├── aps_failure_test_set.csv        # Test data
+├── aps_failure_training_set.csv    # Training data
+├── notebook
+│   ├── app.py                      # Python script for model deployment (e.g., Flask/Streamlit app)
+│   ├── Maintenance_prediction.ipynb # Jupyter Notebook with EDA, preprocessing, and model training
+│   └── model_assets                # Directory for saved models, scalers, etc.
+├── venv/                           # Python virtual environment
+├── .gitignore                      # Git ignore file
+├── LICENSE                         # Project License
+├── README.md                       # This readme file
+└── requirements.txt                # Python dependencies
 ```
 
 ## ⚙️ Installation
